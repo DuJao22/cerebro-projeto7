@@ -1,0 +1,157 @@
+OBJETIVO PRINCIPAL
+
+Criar uma IA que:
+
+Baixe repositórios do GitHub
+Armazene TODOS os arquivos, pastas e estruturas
+Instale automaticamente todas as dependências
+Execute o projeto de forma controlada
+Analise profundamente o código e comportamento
+Integre esse conhecimento ao “cérebro digital”
+Utilize esse conhecimento ao responder perguntas
+Salve absolutamente tudo no banco SQLiteCloud
+💾 BANCO DE DADOS (SQLITECLOUD)
+
+Usar SQLiteCloud como banco principal.
+
+Armazenar:
+
+Tabelas obrigatórias:
+repositorios
+id
+nome
+url
+data_importacao
+arquivos
+id
+repositorio_id
+caminho
+conteudo (texto completo do arquivo)
+funcoes
+id
+nome
+parametros
+descricao
+arquivo_id
+dependencias
+id
+repositorio_id
+nome
+tipo (pip, npm, etc)
+execucoes
+id
+repositorio_id
+logs
+erros
+status
+memoria_cognitiva
+id
+tipo
+conteudo
+peso
+origem (repo, chat, etc)
+🔗 MÓDULO DE IMPORTAÇÃO
+
+Ao adicionar um repositório:
+
+Clonar repositório
+Percorrer TODAS as pastas
+Salvar TODOS os arquivos no banco
+Identificar:
+linguagem
+dependências
+entrypoint
+📦 INSTALAÇÃO AUTOMÁTICA
+
+Detectar automaticamente:
+
+requirements.txt → pip install
+package.json → npm install
+
+Executar instalação em ambiente isolado (virtualenv ou container)
+
+⚙️ EXECUÇÃO CONTROLADA
+
+Executar projeto com:
+
+limite de tempo
+captura de logs
+isolamento
+
+Salvar resultado no banco
+
+🧠 INTEGRAÇÃO COM O CÉREBRO
+
+Transformar o repositório em conhecimento:
+
+funções viram nós
+arquivos viram nós
+dependências viram relações
+
+Criar conexões:
+
+função → pertence → arquivo
+função → usa → outra função
+sistema → executa → ação
+🔍 USO DURANTE RESPOSTAS
+
+Quando IA responder:
+
+buscar memórias do banco
+incluir conhecimento dos repositórios
+raciocinar com base no código real
+⚙️ PAINEL DE CONFIGURAÇÃO (ENGRENAGEM)
+
+Criar botão de configurações com:
+
+Campos:
+
+API KEY Gemini
+URL SQLiteCloud
+Token GitHub
+
+Salvar essas informações de forma segura
+
+📱 INTERFACE (MOBILE-FIRST)
+Estrutura:
+MOBILE:
+Tela principal: Chat
+Botão: "Ver Cérebro"
+Botão: "Importar Repositório"
+Botão: ⚙️ Configurações
+DESKTOP:
+Split screen:
+esquerda: grafo (cérebro)
+direita: chat
+🎨 DESIGN
+Dark mode obrigatório
+Estilo moderno (glassmorphism leve)
+Animações suaves
+Feedback visual em tempo real
+🧠 VISUAL DO CÉREBRO
+Nós = memórias / funções / arquivos
+Conexões = relações
+Peso visual = importância
+Atualização dinâmica
+❌ REMOVER
+Remover completamente a página "creator"
+Não exibir informações pessoais na interface principal
+Focar apenas no sistema e experiência do usuário
+⚡ OTIMIZAÇÃO
+Cache de repositórios
+Evitar reprocessamento
+Atualização incremental
+🔐 SEGURANÇA
+Executar código em ambiente isolado
+Nunca executar código diretamente no sistema principal
+Validar entradas do usuário
+🎯 RESULTADO FINAL
+
+Um sistema onde:
+
+todos os repositórios são armazenados integralmente
+a IA entende cada função e estrutura
+o “cérebro digital” usa esse conhecimento para pensar
+o sistema aprende continuamente
+tudo é salvo e persistido no SQLiteCloud
+interface moderna, responsiva e profission

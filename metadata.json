@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Cérebro Digital Layon-System",
+  "description": "Sistema de Inteligência Artificial com memória persistente, aprendizado evolutivo contínuo e grafo cerebral interativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
